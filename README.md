@@ -30,5 +30,5 @@ Welcome to my personal Python Projects Portfolio. This repository contains hands
 
 ## 📫 Let's Connect
 - GitHub: [truth05-bizz](https://github.com/truth05-bizz)
-- Upwork Profile: *(Add your Upwork profile link here)*
+- Upwork Profile: *([Upwork profile](https://www.upwork.com/freelancers/~0106c64a537ea54df3?mp_source=share))*
 
