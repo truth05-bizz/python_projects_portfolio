@@ -16,6 +16,13 @@ Welcome to my personal Python Projects Portfolio. This repository contains hands
 - A basic LIFO stack class using Python lists
 - Includes methods like `push`, `pop`, `peek`, and `reset`
 
+
+```markdown
+### ✅ Queue Module
+- [Queue Implementation](modules/queue/README.md)
+- A FIFO-style queue with enqueue, dequeue, reset, and utility m
+
+
 ---
 
 ## 🎯 About Me
