@@ -1,27 +1,25 @@
-# Queue Module 🟩
+# Queue Module 🟦
 
-This is a simple implementation of a **Queue (FIFO)** in Python using lists.
+This module contains a custom Queue class built with Python lists.
 
-## ✨ Features
+## Features
 
-- Enqueue multiple items at once
-- Enqueue from the left (like a deque)
-- Dequeue (removes from front)
-- Peek at the front item
-- Check if queue is empty
-- Get size of queue
-- Reset queue
-- Display queue
+- `enqueue(data)` – Add data to end of queue
+- `enqueueleft(data)` – Add data to the front
+- `dequeue()` – Remove from front
+- `peek()` – View front element
+- `is_empty()` – Check if empty
+- `size()` – Get current size
+- `display()` – Show all elements
+- `reset(data)` – Reset queue with new items
 
-## 🧪 Example
+## Example
 
 ```python
 from modules.queue.queue import Queue
 
 q = Queue()
-q.enqueue(1, 2, 3)
-q.enqueueleft(0)
-print(q.display())  # [0, 1, 2, 3]
-print(q.dequeue())  # 0
-print(q.peek())     # 1
-print(q.size())     # 3
+q.enqueue(10, 20)
+q.enqueueleft(5)
+q.dequeue()        # Returns 5
+print(q.display()) # Output: [10, 20]
