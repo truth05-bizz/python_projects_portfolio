@@ -7,6 +7,7 @@ sys.path.append(os.path.abspath("modules"))
 from modules.queue.queue import Queue
 from modules.stack.stack import Stack
 from modules.linkedlist.linkedlist import LinkedList
+from modules.linkedlist.circular_linkedlist import CircularLinkedList
 
 # Test LinkedList
 ll = LinkedList()
@@ -33,3 +34,13 @@ print("Peek:", q.peek())                    # 1
 print("Size:", q.size())                    # 3
 q.reset(10, 20)
 print("After reset:", q.display())          # [10, 20]
+
+
+# Circular_LinkedList
+
+print("\n Circular Linked List Test")
+cll = CircularLinkedList()
+cll.append("A")
+cll.append("B")
+cll.append("C")
+cll.display()
