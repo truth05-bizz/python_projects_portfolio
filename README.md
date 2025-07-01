@@ -7,6 +7,7 @@ Welcome to my personal Python Projects Portfolio. This repository contains hands
 ## 🧰 Modules & Mini Projects
 
 ### ✅ Linked List Implementation
+✅ Circular Linked List  ✅ *(newly added)*
 📂 [`modules/linkedlist`](modules/linkedlist)
 - Custom single linked list class in Python
 - Demonstrates traversal, insertion, deletion, and OOP

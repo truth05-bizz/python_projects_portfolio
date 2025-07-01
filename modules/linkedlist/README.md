@@ -27,3 +27,13 @@ ll.append(10)
 ll.append(20)
 ll.prepend(5)
 print(ll.display())  # Output: [5, 10, 20]
+
+
+### 🔁 Circular Linked List
+
+A circular singly linked list where the last node points back to the head. Includes:
+
+- `append(data)`: Adds a new node to the list
+- `display(limit=10)`: Prints the list safely (limited to avoid infinite loops)
+
+
