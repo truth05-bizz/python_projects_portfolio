@@ -35,5 +35,11 @@ A circular singly linked list where the last node points back to the head. Inclu
 
 - `append(data)`: Adds a new node to the list
 - `display(limit=10)`: Prints the list safely (limited to avoid infinite loops)
+- `prepend(data)`: Adds a new node to the beginning of the list
+- `length()`: return the length of the list
+- `remove(target_data)`: remove the target data from the list
+
+
+
 
 
